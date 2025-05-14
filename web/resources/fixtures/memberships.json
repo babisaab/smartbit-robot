@@ -1,0 +1,82 @@
+{
+    "create":{
+        "account": {
+            "name": "Harry Potter",
+            "email": "harry.potter@gmail.com",
+            "cpf": "803.207.710-32"
+        },
+        "plan": {
+            "name": "Plano Black",
+            "id": 2,
+            "price": 79.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Harry Potter",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    },
+    "duplicate":{
+        "account": {
+            "name": "Rony Wesley",
+            "email": "rony.wesley@gmail.com",
+            "cpf": "8940.189.620-88"
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": 1,
+            "price": 99.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Rony Wesley",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    },
+    "search":{
+        "account": {
+            "name": "Molly Wesley",
+            "email": "molly.wesley@gmail.com",
+            "cpf": "269.229.120-47"
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": 1,
+            "price": 99.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Molly Wesley",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    },
+    "delete":{
+        "account": {
+            "name": "Gina Wesley",
+            "email": "gina.wesley@gmail.com",
+            "cpf": "269.229.120-47"
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": 1,
+            "price": 99.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Gina Wesley",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    }
+}

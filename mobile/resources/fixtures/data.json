@@ -1,0 +1,44 @@
+{
+    "login":{
+        "account": {
+            "name": "Fred Wesley",
+            "email": "fred.wesley@gmail.com",
+            "cpf": "209.393.490-60"
+        },
+        "plan": {
+            "name": "Plano Black",
+            "id": 2,
+            "price": 79.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Fred Wesley",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    },
+    "update":{
+        "account": {
+            "name": "Jorge Wesley",
+            "email": "jorge.wesley@gmail.com",
+            "cpf": "321.485.710-01",
+            "height": 170,
+            "weight": 75
+        },
+        "plan": {
+            "name": "Plano Black",
+            "id": 2,
+            "price": 79.99
+        },
+        "credit_card": {
+           "card_number": "4242424242424242",
+           "card_holder": "Jorge Wesley",
+           "card_month": "12",
+           "card_year": "2030",
+           "card_cvv": "123"
+
+        }
+    }
+}
