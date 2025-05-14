@@ -1,10 +1,12 @@
 *** Settings ***
 Documentation    Arquivo principal do projeto robot2
 
-Library    Browser
-Library    ../../libs/Account.py
-Library    ../../libs/Database.py
-Library    JSONLibrary
+Library     Browser
+Library     ../../libs/Account.py
+Library     ../../libs/Database.py
+Library     JSONLibrary
+
+Variables    Env.py
 
 Resource    pages/Landing.resource
 Resource    pages/Welcome.resource
@@ -23,8 +25,8 @@ ${ADMIM_PASS}     pwd123
 
 *** Keywords ***
 Start session
-    New Browser    browser=chromium    headless=False
-    New Page    http://localhost:3000
+    New Browser    browser=${BROWSER}    headless=${HEADLESS}
+    New Page       ${BASE_URL}
 
 #Helpers
 Get Json fixture
